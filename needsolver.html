@@ -1,11 +1,11 @@
-<!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Plus Gallery | Single Album Example</title>
-  <link rel="stylesheet" href="css/plusgallery.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  		<meta charset="UTF-8">		<title>Smart Health App</title>
+<!--
+Author: miguel angel armengol de la hoz
+Author URL: http://www.shelath.eu
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">		<title>Smart Health App</title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,6 +14,10 @@
 		<!--- <script type="text/javascript" charset="utf-8" src="cordova-2.9.1.js"></script> --->
    		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
    		<link href="css/override.css"/>
+   		<!----start-slider----->
+   		<link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		<script src="js/modernizr.custom.28468.js"></script>
+		<!----//End-slider----->
 		<link rel="stylesheet" type="text/css" href="css/simptip-mini.css" media="screen,projection" />
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<!--- start-mmmenu-script---->
@@ -27,10 +31,12 @@
 		</script>
 		<!---End-mmmenu-script---->
 	</head>
-	<!---start-header---->
+	<body>
+		<!---start-wrap----->
+		<!---start-header---->
 			<div id="page">
 					<div id="header">
-						<a class="navicon" href="index.html"> </a>
+						<a class="navicon" href="#menu-left"> </a>
 						<div class="logo">
 						<img src="images/logo.png" alt="" />
 						</div>
@@ -51,46 +57,24 @@
 					</nav>
 				</div>
 		<!---End-header----->
-	<body>
-		<!---start-wrap----->
-		<!---start-content---->
-		<div class="content" style="margin-top: 50px;padding-bottom: 90px;border-bottom-width: 0px;padding-bottom: 70px;">
-  <style>
-		html,body {
-			height: 100%;
-			font-size: 13px;
-		}
-		
-		body {
-			margin: 0;
-			
-		}
-		
-		a:link {
-			text-decoration: none;
-		}
-		
-		a:link, a:visited, a:hover {
-			color: #00C0FF;
-		}
-		
-		#galleryinfo {
-			text-align: center;
-			padding: 20px;
-		}
-	</style>
-  </head>
-<body>
-	<div id="plusgallery" data-api-key="d14cb2dbd54b1efd03a9f9ec90c5b75c" data-userid="114954077@N08" data-type="flickr"></div>
-    <!--<div id="galleryinfo">Photos loaded from <a href="http://www.flickr.com/photos/114954077@N08/">Smart Health @ Flikr</a></div>-->
+			<!----start-content-slider---->
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write("<script src='js/jquery-1.7.2.min.js'>\x3C/script>")</script>
-  <script src="js/plusgallery.js"></script>
-  <script type="text/javascript">
-		$('#plusgallery').plusGallery();
-  </script>
-  </div>
+
+
+		<!----start-content-slider---->
+			</div>
+		</div>
+		<!---End-header----->
+		<!---start-content---->
+		<div class="content" style="margin-top: 50px;">
+						<div class="Flexible-container" style="margin-top: 50px;margin-bottom: 50px;">
+   <iframe width="100%" height="900px	" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://docs.google.com/forms/d/1ZsgRY_d7O8cnAcO9_T_9yAh_zKVHdWMeka8e92fzaBo/viewform"></iframe>	
+</div>
+
+
+
+			
+		</div>
 		<!---End-content---->
 		<!----start-footer---->
 		<div class="footer">
@@ -105,7 +89,9 @@
 							<div class="clear"> </div>
 						</ul>
 					</div>
-						<script type="text/javascript">
+					
+						
+									<script type="text/javascript">
 						$(document).ready(function() {
 							/*
 							var defaults = {
@@ -120,6 +106,8 @@
 							
 						});
 					</script>
+		  
+
 					</div>
 					<div class="clear"> </div>
 				</div>
@@ -130,5 +118,3 @@
 	</body>
 </html>
 
-</body>
-</html>
