@@ -118,10 +118,10 @@ body{
 .navicon
 {
 	display: block;
-	width: 28px;
-	height: 28px;
+	width: 40px;
+	height: 40px;
 	position: absolute;
-	top: 15px;
+	top: 5px;
 	left: 11px;
 	background: url(../images/nav-icon.png) no-repeat;
 }
