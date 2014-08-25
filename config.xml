@@ -6,15 +6,18 @@
         id        = "com.phonegap.hello-world"
         version   = "1.0.0">
 
-    <name>Smart Health App</name>
+    <name>Smart Health</name>
 
     <description>
         Aplicación para estar al día de todo lo relacionado con innovación.
     </description>
 
-    <author href="http://www.shealth.eu" email="ma.armengol@shelaht.tu">
+    <author href="http://www.shealth.eu" email="ma.armengol@shelaht.eu">
         Smart Health Lab
     </author>
+
+<!--icons -->
+<preference name="SplashScreenDelay" value="10000" />
 
 <icon src="icon.png" />
 
@@ -44,7 +47,7 @@
 
 <icon src="cordova/cordova_173.png" gap:platform="winphone" gap:role="background"/>
 
- 
+ <!--welcome screens -->
 
 <gap:splash src="cordova/res/screen/android_ldpi_portrait.png.png" gap:platform="android" gap:density="ldpi"/>
 
