@@ -16,7 +16,7 @@
         Smart Health Lab
     </author>
 
-<icon src=”cordova/cordova_128.png”/>
+<icon src="icon.png" />
 
 <icon src=”cordova/cordova_android_36.png” gap:platform=”android” gap:density=”ldpi”/>
 
