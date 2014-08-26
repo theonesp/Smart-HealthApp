@@ -11,7 +11,7 @@ Author URL: http://www.shelath.eu
 
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</script>
-		<!--- <script type="text/javascript" charset="utf-8" src="cordova-2.9.1.js"></script> --->
+		<!--- <script type="text/javascript" charset="utf-8" src="cordova-2.9.1.js"></script> -->
    		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
    		<link href="css/override.css"/>
 		<link rel="stylesheet" type="text/css" href="css/simptip-mini.css" media="screen,projection" />
@@ -25,6 +25,22 @@ Author URL: http://www.shelath.eu
 				$('nav#menu-left').mmenu();
 			});
 		</script>
+
+				<script type="text/javascript">
+
+					$('#idContentwrapper').on('click', '.colofon-text a', function(event) {
+					    var href = $(this).attr('href');
+					    if (typeof href !== 'undefined' &&
+					        href.substr(0, 7) === 'http://')
+					    {
+					        event.preventDefault();
+					        // Open in default browser App (on desktop: open in new window/tab)
+					        window.open(this.href, '_system', 'location=no');
+					    }
+					});
+
+		</script>
+
 		<!---End-mmmenu-script---->
 	</head>
 	<body>
