@@ -47,7 +47,7 @@ img{max-width:100%;}
 }
 body{
 	font-family: 'open_sansregular';
-	background:#FFF;
+	background: #fff;
 	font-size:100%;
 }
 /*---start-wrap---*/
@@ -61,6 +61,7 @@ body{
 .logo {
 	text-align:center;
 	margin-top: 15px;
+	height: 20px;
 }
 .logo span{
 	height:26px;
@@ -101,7 +102,7 @@ body{
 .header,
 #footer
 {
-	background: url(../images/header-bg.jpg);
+	background: #80D3F3;
 	color: #fff;
 	text-align: center;
 	line-height: 40px;
@@ -111,9 +112,8 @@ body{
 	width: 100%;
 	z-index: 999;
 	top: 0;
-	-webkit-box-shadow: 0px 3px 5px rgba(60, 60, 60, 0.03);
-	-moz-box-shadow: 0px 3px 5px rgba(60, 60, 60, 0.03);
-	box-shadow: 0px 3px 5px rgba(60, 60, 60, 0.03);
+	border-bottom: 1px solid #A7A7A7;
+
 }
 .navicon
 {
@@ -176,8 +176,9 @@ body{
 }
 /*---start-gallery-----*/
 .recent-works {
-	background: url(../images/portfolio-bg.jpg) no-repeat;
+	
 	padding: 1em 0;
+	
 }
 .gallery{
 	margin-top: 4%;
@@ -339,13 +340,13 @@ body{
 	text-align:center;
 }
 .recent-works-head h3{
-	color:#FFF;
+	color:#323232;
 	font-size:2.3em;
 	/*font-family: 'trump_town_proregular';*/
 	text-transform:uppercase;
 }
 .recent-works-head p{
-	color: #EEE;
+	color: #323232;
 	line-height: 1.5em;
 	font-size:0.875em;
 }
@@ -673,7 +674,7 @@ body{
 }
 /*---start-footer----*/
 .footer{
-	background: url(../images/header-bg.jpg);
+	background: #80D3F3;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
